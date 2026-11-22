@@ -1,0 +1,1 @@
+{ "name": "xuangui-verdict", "version": "0.1.0", "description": "玄圭 · 候选条目裁决筛选引擎，只放行经裁决的内容", "type": "commonjs", "main": "verdict.js", "license": "Apache-2.0" }

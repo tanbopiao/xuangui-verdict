@@ -1,0 +1,6 @@
+{
+  "minLength": 8,
+  "blockedWords": ["密码", "验证码", "身份证号", "银行卡号"],
+  "sourceWhitelist": ["human", "engine", "review"],
+  "dedupeField": "fingerprint"
+}
