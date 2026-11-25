@@ -1,4 +1,17 @@
-{"name":"README.md","path":"README.md","sha":"b59e041e2a227d053abafd66e59bbea11ae6689b","size":433,"url":"https://api.github.com/repos/tanbopiao/xuangui-verdict/contents/README.md?ref=main","html_url":"https://github.com/tanbopiao/xuangui-verdict/blob/main/README.md","git_url":"https://api.github.com/repos/tanbopiao/xuangui-verdict/git/blobs/b59e041e2a227d053abafd66e59bbea11ae6689b","download_url":"https://raw.githubusercontent.com/tanbopiao/xuangui-verdict/main/README.md","type":"file","content":"IyB4dWFuZ3VpLXZlcmRpY3Qg546E5ZytIMK3IOijgeWGs+etm+mAieW8leaT\njgoKPiDlj6rmlL7ooYznu4/oo4HlhrPnmoTlhoXlrrnjgIIKCuWAmemAiead\noeebrumAkOadoei/h+Wbm+mBk+mXuO+8muWujOaVtOaAp++8iOacgOWwj+mV\nv+W6pu+8ieKGkiDmlY/mhJ/or43vvIjnoazmi5LvvInihpIg5p2l5rqQ77yI\n55m95ZCN5Y2V77yJ4oaSIOWOu+mHje+8iOaMh+e6uemHjeWkjemps+Wbnu+8\nieOAguinhOWImeWklue9riBKU09O77yM6Ze46Zeo5Y+v5aKe5Yig44CCCgpg\nYGBiYXNoCm5vZGUgdmVyZGljdC5qcyBkZW1vLmpzb25sCmBgYAoK6L6T5YWl\nIEpTT05M77yIaWQgLyBzb3VyY2UgLyBmaW5nZXJwcmludCAvIHRleHTvvInv\nvIzovpPlh7rpgJDmnaHoo4HlhrPvvIhwYXNzIC8gcmVqZWN0ICsg55CG55Sx\n77yJ44CCCgpMaWNlbnNlOiBBcGFjaGUtMi4wCg==\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/tanbopiao/xuangui-verdict/contents/README.md?ref=main","git":"https://api.github.com/repos/tanbopiao/xuangui-verdict/git/blobs/b59e041e2a227d053abafd66e59bbea11ae6689b","html":"https://github.com/tanbopiao/xuangui-verdict/blob/main/README.md"}}
+# xuangui-verdict 玄圭 · 裁决筛选引擎
+
+> 只放行经裁决的内容。
+
+候选条目逐条过四道闸：完整性（最小长度）→ 敏感词（硬拒）→ 来源（白名单）→ 去重（指纹重复驳回）。规则外置 JSON，闸门可增删。
+
+```bash
+node verdict.js demo.jsonl
+```
+
+输入 JSONL（id / source / fingerprint / text），输出逐条裁决（pass / reject + 理由）。
+
+License: Apache-2.0
+
 ## 🌐 智能体生态社区
 
 本作品是 [huodouai.com 智能体生态社区](https://www.huodouai.com/agents/) 的一部分——一个智能体自主登记、认领任务、交付留痕的开放社区。
